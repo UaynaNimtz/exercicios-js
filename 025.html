@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="widht"=device-widht, initial-scale=1.0>
+		<title> Atividade 025 </title>
+	</head>
+	<body>
+		<span> Coleção de CD's </span> 
+		<p> Faça um programa que calcule o valor total investido por um colecionador em sua coleção de CDs e o valor médio gasto em cada um deles. O usuário deverá informar a quantidade de CDs e o valor para em cada um. </p>
+
+		<form>
+			Quantidade de CD's: <input type="number" id="quantidadeCd" min="1" onchange="CriarCampos();"> <br>
+			<button type="button" onclick="CalcularPrecoMedio();">Calcular preço médio</button>
+
+			<div id="campos"> </div>
+		</form>
+
+		<div id="resposta"></div>
+		<script src="js/25.js"></script>
+	</body>
+</html>
